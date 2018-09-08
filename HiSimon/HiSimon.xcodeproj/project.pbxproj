@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BB4F4800944B6B0EA838EE4 /* Pods_HiSimon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6958ADF827FD3AC62DD660DE /* Pods_HiSimon.framework */; };
+		EB0C18402118E1A000B1A371 /* LeafView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C183F2118E1A000B1A371 /* LeafView.swift */; };
+		EB0C1842211C441800B1A371 /* LeafInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C1841211C441800B1A371 /* LeafInstance.swift */; };
+		EB0C1844211F246400B1A371 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C1843211F246400B1A371 /* Extension.swift */; };
+		EB31D0F62114B8B20045A35C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31D0F52114B8B20045A35C /* AppDelegate.swift */; };
+		EB31D0F82114B8B20045A35C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31D0F72114B8B20045A35C /* ViewController.swift */; };
+		EB31D0FB2114B8B20045A35C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB31D0F92114B8B20045A35C /* Main.storyboard */; };
+		EB31D1002114B8B50045A35C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB31D0FE2114B8B50045A35C /* LaunchScreen.storyboard */; };
+		EB31D1082114BB790045A35C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB31D1072114BB790045A35C /* Assets.xcassets */; };
+		EB31D10E2114EAE00045A35C /* GASymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31D10C2114EAE00045A35C /* GASymbol.swift */; };
+		EB31D10F2114EAE00045A35C /* GAColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31D10D2114EAE00045A35C /* GAColor.swift */; };
+		EBF6FD4A212A0C9C00563BBA /* GestureAI.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EBF6FD49212A0C9C00563BBA /* GestureAI.mlmodel */; };
+		EBF6FDC3213EB2C200563BBA /* GothamRnd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EBF6FDC1213EB2C200563BBA /* GothamRnd-Bold.otf */; };
+		EBF6FDC4213EB2C200563BBA /* GothamRnd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EBF6FDC2213EB2C200563BBA /* GothamRnd-Medium.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		010B67F1E68876BE73A2FCE9 /* Pods-HiSimon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiSimon.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiSimon/Pods-HiSimon.release.xcconfig"; sourceTree = "<group>"; };
+		6958ADF827FD3AC62DD660DE /* Pods_HiSimon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiSimon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE116ED13086B4DFDE8DBB39 /* Pods-HiSimon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiSimon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiSimon/Pods-HiSimon.debug.xcconfig"; sourceTree = "<group>"; };
+		EB0C183F2118E1A000B1A371 /* LeafView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafView.swift; sourceTree = "<group>"; };
+		EB0C1841211C441800B1A371 /* LeafInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafInstance.swift; sourceTree = "<group>"; };
+		EB0C1843211F246400B1A371 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		EB31D0F22114B8B20045A35C /* HiSimon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiSimon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB31D0F52114B8B20045A35C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB31D0F72114B8B20045A35C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB31D0FA2114B8B20045A35C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB31D0FF2114B8B50045A35C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB31D1012114B8B50045A35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB31D1072114BB790045A35C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB31D10C2114EAE00045A35C /* GASymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GASymbol.swift; sourceTree = "<group>"; };
+		EB31D10D2114EAE00045A35C /* GAColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAColor.swift; sourceTree = "<group>"; };
+		EBF6FD49212A0C9C00563BBA /* GestureAI.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GestureAI.mlmodel; sourceTree = "<group>"; };
+		EBF6FDC1213EB2C200563BBA /* GothamRnd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Bold.otf"; sourceTree = "<group>"; };
+		EBF6FDC2213EB2C200563BBA /* GothamRnd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Medium.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB31D0EF2114B8B10045A35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB4F4800944B6B0EA838EE4 /* Pods_HiSimon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AF888169AD96782353A1F0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6958ADF827FD3AC62DD660DE /* Pods_HiSimon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCE42D14BDCCEE0AFE5C8D20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE116ED13086B4DFDE8DBB39 /* Pods-HiSimon.debug.xcconfig */,
+				010B67F1E68876BE73A2FCE9 /* Pods-HiSimon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB31D0E92114B8B10045A35C = {
+			isa = PBXGroup;
+			children = (
+				EB31D0F42114B8B20045A35C /* HiSimon */,
+				EB31D0F32114B8B20045A35C /* Products */,
+				CCE42D14BDCCEE0AFE5C8D20 /* Pods */,
+				9AF888169AD96782353A1F0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB31D0F32114B8B20045A35C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB31D0F22114B8B20045A35C /* HiSimon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB31D0F42114B8B20045A35C /* HiSimon */ = {
+			isa = PBXGroup;
+			children = (
+				EB31D1182114F68F0045A35C /* Files */,
+				EB31D0F52114B8B20045A35C /* AppDelegate.swift */,
+				EB31D0F72114B8B20045A35C /* ViewController.swift */,
+				EB0C183F2118E1A000B1A371 /* LeafView.swift */,
+				EBF6FD49212A0C9C00563BBA /* GestureAI.mlmodel */,
+				EB31D0F92114B8B20045A35C /* Main.storyboard */,
+				EB31D1072114BB790045A35C /* Assets.xcassets */,
+				EB31D0FE2114B8B50045A35C /* LaunchScreen.storyboard */,
+				EB31D1012114B8B50045A35C /* Info.plist */,
+				EB0C1841211C441800B1A371 /* LeafInstance.swift */,
+			);
+			path = HiSimon;
+			sourceTree = "<group>";
+		};
+		EB31D10B2114EAE00045A35C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB31D10C2114EAE00045A35C /* GASymbol.swift */,
+				EBF6FDC1213EB2C200563BBA /* GothamRnd-Bold.otf */,
+				EBF6FDC2213EB2C200563BBA /* GothamRnd-Medium.otf */,
+				EB31D10D2114EAE00045A35C /* GAColor.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EB31D1182114F68F0045A35C /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB31D10B2114EAE00045A35C /* Resources */,
+				EB0C1843211F246400B1A371 /* Extension.swift */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB31D0F12114B8B10045A35C /* HiSimon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB31D1042114B8B50045A35C /* Build configuration list for PBXNativeTarget "HiSimon" */;
+			buildPhases = (
+				EBB3EE936C277E3AD2D3E831 /* [CP] Check Pods Manifest.lock */,
+				EB31D0EE2114B8B10045A35C /* Sources */,
+				EB31D0EF2114B8B10045A35C /* Frameworks */,
+				EB31D0F02114B8B10045A35C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiSimon;
+			productName = HiSimon;
+			productReference = EB31D0F22114B8B20045A35C /* HiSimon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB31D0EA2114B8B10045A35C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Edoardo Francesco Amedeo";
+				TargetAttributes = {
+					EB31D0F12114B8B10045A35C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = EB31D0ED2114B8B10045A35C /* Build configuration list for PBXProject "HiSimon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB31D0E92114B8B10045A35C;
+			productRefGroup = EB31D0F32114B8B20045A35C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB31D0F12114B8B10045A35C /* HiSimon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB31D0F02114B8B10045A35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB31D1002114B8B50045A35C /* LaunchScreen.storyboard in Resources */,
+				EB31D1082114BB790045A35C /* Assets.xcassets in Resources */,
+				EB31D0FB2114B8B20045A35C /* Main.storyboard in Resources */,
+				EBF6FDC4213EB2C200563BBA /* GothamRnd-Medium.otf in Resources */,
+				EBF6FDC3213EB2C200563BBA /* GothamRnd-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EBB3EE936C277E3AD2D3E831 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiSimon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB31D0EE2114B8B10045A35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0C1842211C441800B1A371 /* LeafInstance.swift in Sources */,
+				EB31D10E2114EAE00045A35C /* GASymbol.swift in Sources */,
+				EBF6FD4A212A0C9C00563BBA /* GestureAI.mlmodel in Sources */,
+				EB0C18402118E1A000B1A371 /* LeafView.swift in Sources */,
+				EB31D0F82114B8B20045A35C /* ViewController.swift in Sources */,
+				EB31D0F62114B8B20045A35C /* AppDelegate.swift in Sources */,
+				EB31D10F2114EAE00045A35C /* GAColor.swift in Sources */,
+				EB0C1844211F246400B1A371 /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB31D0F92114B8B20045A35C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB31D0FA2114B8B20045A35C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB31D0FE2114B8B50045A35C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB31D0FF2114B8B50045A35C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB31D1022114B8B50045A35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB31D1032114B8B50045A35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB31D1052114B8B50045A35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE116ED13086B4DFDE8DBB39 /* Pods-HiSimon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G99G8858YN;
+				INFOPLIST_FILE = HiSimon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesaredecal.HiSimon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB31D1062114B8B50045A35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010B67F1E68876BE73A2FCE9 /* Pods-HiSimon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G99G8858YN;
+				INFOPLIST_FILE = HiSimon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesaredecal.HiSimon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB31D0ED2114B8B10045A35C /* Build configuration list for PBXProject "HiSimon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB31D1022114B8B50045A35C /* Debug */,
+				EB31D1032114B8B50045A35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB31D1042114B8B50045A35C /* Build configuration list for PBXNativeTarget "HiSimon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB31D1052114B8B50045A35C /* Debug */,
+				EB31D1062114B8B50045A35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB31D0EA2114B8B10045A35C /* Project object */;
+}

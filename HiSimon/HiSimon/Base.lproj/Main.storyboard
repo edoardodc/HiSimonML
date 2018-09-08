@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GothamRnd-Bold.otf">
+            <string>GothamRounded-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HiSimon" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wQu-Cr-rLM">
+                                <rect key="frame" x="30" y="40" width="315" height="597"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Swp-No-Dzu">
+                                        <rect key="frame" x="20" y="0.0" width="275" height="463"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="tEj-mW-clv">
+                                                <rect key="frame" x="66" y="0.0" width="143.5" height="87.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Level 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rab-yt-rEq">
+                                                        <rect key="frame" x="0.0" y="0.0" width="143.5" height="52.5"/>
+                                                        <fontDescription key="fontDescription" name="GothamRounded-Bold" family="Gotham Rounded" pointSize="45"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="GothamRounded-Bold" family="Gotham Rounded" pointSize="65"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQI-LS-g0E">
+                                                        <rect key="frame" x="0.0" y="52.5" width="143.5" height="35"/>
+                                                        <fontDescription key="fontDescription" name="GothamRounded-Bold" family="Gotham Rounded" pointSize="30"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="acD-UK-nwG">
+                                                <rect key="frame" x="0.0" y="144" width="275" height="319"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Triangle" translatesAutoresizingMaskIntoConstraints="NO" id="1T2-CM-e8A">
+                                                        <rect key="frame" x="81.5" y="0.0" width="112.5" height="136"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="equalSpacing" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="veV-ni-cQV">
+                                                        <rect key="frame" x="0.0" y="187" width="275" height="132"/>
+                                                        <subviews>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Square" translatesAutoresizingMaskIntoConstraints="NO" id="Maw-od-u7r">
+                                                                <rect key="frame" x="0.0" y="0.0" width="112.5" height="132"/>
+                                                            </imageView>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Oval" translatesAutoresizingMaskIntoConstraints="NO" id="SBm-yp-ryo">
+                                                                <rect key="frame" x="162.5" y="0.0" width="112.5" height="132"/>
+                                                            </imageView>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="SBm-yp-ryo" firstAttribute="width" secondItem="Maw-od-u7r" secondAttribute="width" id="q9K-Oa-lvf"/>
+                                                        </constraints>
+                                                        <variation key="heightClass=regular-widthClass=regular" spacing="100"/>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="1T2-CM-e8A" firstAttribute="width" secondItem="Maw-od-u7r" secondAttribute="width" id="xtH-b7-aof"/>
+                                                </constraints>
+                                                <variation key="heightClass=regular-widthClass=regular" spacing="100"/>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rbA-1z-CGC">
+                                        <rect key="frame" x="38" y="492" width="239" height="105"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="corner.Radius" value="50"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="rbA-1z-CGC" firstAttribute="top" secondItem="wQu-Cr-rLM" secondAttribute="top" constant="492" id="9xb-gN-Y8J"/>
+                                    <constraint firstItem="rbA-1z-CGC" firstAttribute="leading" secondItem="wQu-Cr-rLM" secondAttribute="leading" constant="38" id="Cdv-Dr-uXE"/>
+                                    <constraint firstItem="rbA-1z-CGC" firstAttribute="top" secondItem="Swp-No-Dzu" secondAttribute="bottom" constant="29" id="OfF-FK-MpL"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCX-mk-u0W">
+                                <rect key="frame" x="30" y="627" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="gaBtnTouchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="AJU-IN-bEK"/>
+                                    <action selector="gaBtnTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9KZ-pX-IBg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25098039215686274" green="0.25575086805555558" blue="0.81808810763888884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.26492998234606113" green="0.56017940294672841" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wQu-Cr-rLM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="5ha-HN-Pwz"/>
+                            <constraint firstItem="acD-UK-nwG" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Q8d-qo-0Kq"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="wQu-Cr-rLM" secondAttribute="bottom" constant="30" id="WF0-eZ-hnv"/>
+                            <constraint firstItem="Maw-od-u7r" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.3" id="gCQ-9g-boj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wQu-Cr-rLM" secondAttribute="trailing" constant="30" id="wHe-tr-4wW"/>
+                            <constraint firstItem="acD-UK-nwG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="yCo-j8-Zk5"/>
+                            <constraint firstItem="wQu-Cr-rLM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="zhO-qH-EkG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="gaArea" destination="Rab-yt-rEq" id="NfB-KH-1u6"/>
+                        <outlet property="gaBtn" destination="HCX-mk-u0W" id="qXA-zn-u9j"/>
+                        <outlet property="labelBest" destination="RQI-LS-g0E" id="bKD-65-qs3"/>
+                        <outlet property="labelLevel" destination="Rab-yt-rEq" id="KEv-cE-At2"/>
+                        <outlet property="ovalImage" destination="SBm-yp-ryo" id="e4P-pE-0PS"/>
+                        <outlet property="squareImage" destination="Maw-od-u7r" id="zM8-HY-6d1"/>
+                        <outlet property="triangleImage" destination="1T2-CM-e8A" id="gCI-WL-dun"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.374100719424462" y="32.374100719424462"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Oval" width="132" height="132"/>
+        <image name="Square" width="127" height="127"/>
+        <image name="Triangle" width="136" height="136"/>
+    </resources>
+    <color key="tintColor" red="0.25098039215686274" green="0.13725490196078433" blue="0.61176470588235299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>
